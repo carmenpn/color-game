@@ -1,0 +1,81 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	/*background-color: #003531;*/
+}
+
+#header {
+	text-align: center;
+	background-color: white;
+	color: black;
+	max-width: 100%;
+	padding: 20px 0px 20px 0px;
+	line-height: 15px;
+	font-family: Roboto, sans-serif;
+}
+
+#culoare {
+	text-transform: uppercase;
+}
+
+#newColor {
+	color: #004445;
+	background-color: #dbdbdb;
+	padding-left: 10%;
+	font-family: Roboto, sans-serif;
+	height: 23px;
+
+}
+
+	#newColor #mesaj {
+		margin-left: 50px;
+	}
+
+/*Buton Alte culori*/
+#schimbaCuloarea {
+	margin-left: 25%;
+	text-transform: uppercase;
+	color: #004445;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	background-color: inherit;
+	font-weight: bold;
+	cursor: pointer;
+	display: inline-block;
+	border: 2px solid #dbdbdb;
+	font-size: 15px;
+
+	/*Transition*/
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+	#schimbaCuloarea:hover {
+		background-color: #2b7873;
+		color: white;
+		cursor: pointer;
+		border: 2px solid #2b7873;
+	}
+
+#cercuri {
+	width: 600px;
+	margin: 50px auto;
+}
+
+.cerc {
+	width: 30%;
+	padding-bottom: 30%;
+	border-radius: 50%;
+	background-color: white;
+	float: left;
+	transition: background 0.5;
+	margin: 1.66%;
+	cursor: pointer;
+}
+
+	.cerc:hover {
+		box-shadow: 4px 4px rgba(0,0,0,0.2);
+	}
+
